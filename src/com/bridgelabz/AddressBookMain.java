@@ -2,6 +2,9 @@ package com.bridgelabz;
 
 public class AddressBookMain {
     public static void main(String[] args) {
-        System.out.println("Welcome AddressBook Program");
+        AddressBook addressBook1 = new AddressBook();
+        addressBook1.addContact();
+        addressBook1.addContact();
+        System.out.println(addressBook1.contactList);
     }
 }
